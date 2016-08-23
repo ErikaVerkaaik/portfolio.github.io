@@ -72,6 +72,18 @@ a:focus {
   padding-bottom: 8px;
 }
 
+
+.tooltip {
+	
+	font-family: 'Muli';
+	font-size:18px;
+	line-height:30px;
+	font-weight:200;
+}
+
+
+
+
 /* 2. Preloader
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body.preloader-running{ 
@@ -150,25 +162,28 @@ footer.mastfoot.signature-phil{
 }
 .social-icons-big li{
   display: inline-block;
-  margin-right: 80px;
+  margin-right: 60px;
+
+  margin-bottom:40px;
 }
 .social-icons-big li a span{
   font-size: 80px;
-  line-height:0px;
-            -webkit-transition: all .2s linear;
+  
+
+           /*  -webkit-transition: all .2s linear;
                -moz-transition: all .2s linear;
                 -ms-transition: all .2s linear;
                  -o-transition: all .2s linear;
-                    transition: all .2s linear;
+                    transition: all .2s linear; */
 }
 .social-icons-big li a:hover span{
   font-size: 80px;
-  line-height:0px;
+/* 
             -webkit-transition: all .2s linear;
                -moz-transition: all .2s linear;
                 -ms-transition: all .2s linear;
                  -o-transition: all .2s linear;
-                    transition: all .2s linear;
+                    transition: all .2s linear; */
 }
 .credits p{
   font-size: 13px;
@@ -830,10 +845,10 @@ display: none;
   color: #f1f1ef;
 }
 .grey {
-  color: #aaaaaa;
+  color: #666666;
 }
 .dark {
-  color: #222222;
+  color: #666666;
 }
 .black {
   color: #121212;

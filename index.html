@@ -40,6 +40,10 @@
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/main-bg.css">
   <link rel="stylesheet" href="stylesheets/main-responsive.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
  
   <!-- LESS
@@ -82,7 +86,7 @@
 			</article>
                 <a href="index.html"><h1 class="logo black font2">ERIKA VERKAAIK</h1></a>
 				<h4 class="color font2">GAME ART & DESIGN</h1>
-				<a href="mailto:erikaverkaaik@gmail.com"><h3 class="grey font2">erikaverkaaik at gmail.com</h3>
+				<a href="mailto:erikaverkaaik@gmail.com"><h3 class="grey font2">erikaverkaaik at gmail.com</h3></a>
             </article>
         </div>
     </div>
@@ -94,14 +98,22 @@
   <section class="mastwrap signature-phil">
 <article class="col-md-12 text-center">
 <p><ul class="social-icons-big signature-phil">
-                  <li><a href="https://twitter.com/erikaverkaaik"><span class="ion-social-twitter black"></span></a></li>
-                  <li><a href="https://evrka.itch.io/"><span class="ion-ios-game-controller-b"></span></a></li>
-				  <li><a href="about.html"><span class="ion-help-circled"></span></a></li>
+                  <li><a href="https://twitter.com/erikaverkaaik" data-toggle="tooltip" data-placement="bottom" title="TWITTER"><span class="ion-social-twitter dark"></span></a></li>
+                  <li><a href="https://erikaverkaaik.itch.io/" data-toggle="tooltip" data-placement="bottom" title="ITCH.IO"><span class="ion-ios-game-controller-b dark"></span></a></li>
+				  <li><a href="https://www.artstation.com/artist/erikaverkaaik" data-toggle="tooltip" data-placement="bottom" title="ARTSTATION"><span class="ion-image dark"></span></a></li>
+				  <li><a href="about.html" data-toggle="tooltip" data-placement="bottom" title="ABOUT"><span class="ion-information-circled dark"></span></a></li>
                 </ul>
 				</p>
 </article>
   
   </section>
+  
+  
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
   <!-- end : mastwrap -->
 
 
