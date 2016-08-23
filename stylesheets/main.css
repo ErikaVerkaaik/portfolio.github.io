@@ -36,7 +36,7 @@ p{
   text-align: justify;
   margin-bottom: 0;
 }
-h1,h2,h4,h5,h6{
+h1,h2,h5,h6{
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -45,6 +45,13 @@ h3{
 	font-size: 20px;
 	letter-spacing: 1.5px;
 	line-height: 0px;
+}
+
+h4{
+	font-size: 22px;
+	letter-spacing: 5px;
+	line-height: 30px;
+	font-weight:100;
 }
 a{
   text-decoration:none !important;
@@ -97,12 +104,12 @@ div#preloader.signature-phil {
 /* 3. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header.masthead.signature-phil{
-  padding: 50px 0;
+  padding: 80px 0;
 }
 .logo{
   text-transform: uppercase;
-  letter-spacing: 8px;
-  font-size: 24px;
+  letter-spacing: 4.5px;
+  font-size: 30px;
   line-height: 24px;
 }
 
@@ -140,28 +147,28 @@ footer.mastfoot.signature-phil{
 
 .social-icons-big{
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 .social-icons-big li{
   display: inline-block;
-  margin: 0 5px;
+  margin-right: 80px;
 }
 .social-icons-big li a span{
-  font-size: 34px;
-            -webkit-transition: all .4s linear;
-               -moz-transition: all .4s linear;
-                -ms-transition: all .4s linear;
-                 -o-transition: all .4s linear;
-                    transition: all .4s linear;
+  font-size: 80px;
+  line-height:0px;
+            -webkit-transition: all .2s linear;
+               -moz-transition: all .2s linear;
+                -ms-transition: all .2s linear;
+                 -o-transition: all .2s linear;
+                    transition: all .2s linear;
 }
 .social-icons-big li a:hover span{
-  font-size: 34px;
-            -webkit-transition: all .4s linear;
-               -moz-transition: all .4s linear;
-                -ms-transition: all .4s linear;
-                 -o-transition: all .4s linear;
-                    transition: all .4s linear;
+  font-size: 80px;
+  line-height:0px;
+            -webkit-transition: all .2s linear;
+               -moz-transition: all .2s linear;
+                -ms-transition: all .2s linear;
+                 -o-transition: all .2s linear;
+                    transition: all .2s linear;
 }
 .credits p{
   font-size: 13px;
@@ -900,45 +907,45 @@ nav#nav-mobile a:hover {
   border-color: #f1f1ef;
 }
 .font1 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font2 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font3 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font4 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font4thin {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font4light {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font4bold {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .font4black {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 body,
 p {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 nav#nav-mobile a {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .niceGallery ul.entries-columns li h4,
 .viewbox .panel .number,
 .viewbox .panel h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .niceGallery ul.entries-columns li a .show {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 .viewbox .details h2 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli';
 }
 
