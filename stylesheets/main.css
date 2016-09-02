@@ -74,6 +74,7 @@ a:focus {
   letter-spacing: 2px;
   padding: 10px;
   padding-bottom: 8px;
+  font-family: 'Muli';
 }
 
 
@@ -203,6 +204,7 @@ nav.mastnav.signature-phil{
   border-top: solid 2px #121212;
   margin-top: 25px;
   padding-top: 0px;
+  font-family: 'Muli';
 }
 .navigation ul{
   list-style: none;
@@ -595,6 +597,7 @@ display: none;
   margin-bottom: 10px;
   letter-spacing: 2px;
   text-decoration: uppercase;
+  font-family: 'Muli';
 }
 .news-date > span{
   font-size: 18px;
@@ -610,6 +613,7 @@ display: none;
   padding-bottom: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-family: 'Muli';
 }
 .news-heading-big{
   font-size: 64px;
@@ -617,6 +621,7 @@ display: none;
   margin-bottom: 20px;
   border-top: solid 4px;
   padding-top: 15px;
+  font-family: 'Muli';
 }
 /*WORKS*/
 .work-collection-title{
