@@ -43,7 +43,8 @@ h1,h2,h5,h6{
 
 h3{
 	font-size: 19px;
-	letter-spacing:3.75px;
+	letter-spacing:2px;
+	line-height:8px;
 
 }
 
