@@ -42,15 +42,15 @@ h1,h2,h5,h6{
 }
 
 h3{
-	font-size: 20px;
-	letter-spacing: 1.5px;
-	line-height: 20px;
+	font-size: 19px;
+	letter-spacing:3.75px;
+
 }
 
 h4{
 	font-size: 22px;
 	letter-spacing: 5px;
-	line-height: 22px;
+
 }
 a{
   text-decoration:none !important;
@@ -75,9 +75,10 @@ a:focus {
 .tooltip {
 	
 	font-family: 'Muli';
-	font-size:18px;
-	line-height:30px;
-	font-weight:200;
+	font-size:16px;
+	line-height:24px;
+	font-weight:bold;
+	letter-spacing: 2px;
 }
 
 
@@ -118,10 +119,11 @@ header.masthead.signature-phil{
   padding: 80px 0;
 }
 .logo{
-  text-transform: uppercase;
-  letter-spacing: 4.5px;
-  font-size: 30px;
-  line-height: 30px;
+  font-family:'wc_mano_negra_btaregular';
+  text-transform: none;
+  letter-spacing: 3px;
+  font-size: 52px;
+  line-height: 40px;
 }
 
 /* 4. Footer
@@ -161,7 +163,7 @@ footer.mastfoot.signature-phil{
 }
 .social-icons-big li{
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 40px;
 
   margin-bottom:40px;
 }
@@ -844,10 +846,10 @@ display: none;
   color: #f1f1ef;
 }
 .grey {
-  color: #666666;
+  color: #aaaaaa;
 }
 .dark {
-  color: #666666;
+  color: #444444;
 }
 .black {
   color: #121212;
