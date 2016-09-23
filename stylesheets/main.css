@@ -168,12 +168,12 @@ footer.mastfoot.signature-phil{
 }
 .social-icons-big li{
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 40px;
   margin-top:10px;
   margin-bottom:10px;
 }
 .social-icons-big li a span{
-  font-size: 60px;
+  font-size: 80px;
   
 
            /*  -webkit-transition: all .2s linear;
@@ -183,7 +183,7 @@ footer.mastfoot.signature-phil{
                     transition: all .2s linear; */
 }
 .social-icons-big li a:hover span{
-  font-size: 60px;
+  font-size: 80px;
 /* 
             -webkit-transition: all .2s linear;
                -moz-transition: all .2s linear;
