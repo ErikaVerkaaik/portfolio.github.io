@@ -83,7 +83,6 @@ a:focus {
 	font-family: 'Muli';
 	font-size:16px;
 	line-height:24px;
-	font-weight:bold;
 	letter-spacing: 2px;
 }
 
@@ -139,7 +138,7 @@ footer.mastfoot.signature-phil{
   padding: 50px 0;
 }
 .social-icons{
-  list-style: none;
+  font-size: 80px;
   padding: 0;
   margin: 0;
 }
@@ -169,12 +168,12 @@ footer.mastfoot.signature-phil{
 }
 .social-icons-big li{
   display: inline-block;
-  margin-right: 40px;
-
-  margin-bottom:40px;
+  margin-right: 60px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 .social-icons-big li a span{
-  font-size: 80px;
+  font-size: 60px;
   
 
            /*  -webkit-transition: all .2s linear;
@@ -184,7 +183,7 @@ footer.mastfoot.signature-phil{
                     transition: all .2s linear; */
 }
 .social-icons-big li a:hover span{
-  font-size: 80px;
+  font-size: 60px;
 /* 
             -webkit-transition: all .2s linear;
                -moz-transition: all .2s linear;
