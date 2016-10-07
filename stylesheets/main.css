@@ -27,8 +27,9 @@ html, body{
   overflow-x: hidden;
 }
 body{
-  border-left: solid 100px #fff; 
-  border-right: solid 100px #fff; 
+  border-left: solid 100px #222 ; 
+  border-right: solid 100px #222 ; 
+  background-color: #222 ;
 }
 p{
   font-size: 16px;
@@ -849,8 +850,13 @@ display: none;
   color: #2da86b;
 }
 .white {
-  color: #ffffff;
+  color: #fff;
 }
+
+.mint {
+  color: #A1C2B1;
+}
+
 .silver {
   color: #f1f1ef;
 }
