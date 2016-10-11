@@ -27,9 +27,9 @@ html, body{
   overflow-x: hidden;
 }
 body{
-  border-left: solid 100px #222 ; 
-  border-right: solid 100px #222 ; 
-  background-color: #222 ;
+  border-left: solid 100px #1b201e ; 
+  border-right: solid 100px #1b201e ; 
+  background-color: #1b201e ;
 }
 p{
   font-size: 16px;
@@ -847,14 +847,14 @@ display: none;
 (Please read PDF guide to manage colors via LESS with just a single line of code editing)*/
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 .color {
-  color: #2da86b;
+  color: #63bb82;
 }
 .white {
   color: #fff;
 }
 
 .mint {
-  color: #A1C2B1;
+  color: #d8efe8;
 }
 
 .silver {
@@ -870,7 +870,7 @@ display: none;
   color: #121212;
 }
 .color-bg {
-  background-color: #2da86b;
+  background-color: #63bb82;
 }
 .white-bg {
   background-color: #ffffff;
@@ -891,14 +891,14 @@ a {
   color: #121212;
 }
 a:hover {
-  color: #2da86b;
+  color: #63bb82;
 }
 ::selection {
-  background: #2da86b;
+  background: #63bb82;
   color: #ffffff;
 }
 ::-moz-selection {
-  background: #2da86b;
+  background: #63bb82;
   color: #ffffff;
 }
 body,
@@ -913,11 +913,11 @@ p {
 }
 .navigation a:hover,
 .social-icons li a:hover span {
-  color: #2da86b;
+  color: #63bb82;
 }
 .navigation a:hover,
 .social-icons-big li a:hover span {
-  color: #2da86b;
+  color: #63bb82;
 .content-list li span {
   border-color: #cccccc;
 }
