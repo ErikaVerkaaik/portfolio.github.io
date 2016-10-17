@@ -92,7 +92,7 @@ a:focus {
 
 /* 2. Preloader
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body.preloader-running{ 
+/* body.preloader-running{ 
   overflow: hidden; 
 }
 
@@ -117,7 +117,7 @@ div#preloader.signature-phil {
   background-repeat: no-repeat; 
   background-position: center; 
   margin: -100px 0 0 -100px; 
-}
+} */
 
 /* 3. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
