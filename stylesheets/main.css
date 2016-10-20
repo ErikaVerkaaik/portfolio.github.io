@@ -34,7 +34,7 @@ body{
 p{
   font-size: 16px;
   line-height: 26px;
-  text-align: justify;
+  text-align: center;
   margin-bottom: 0;
   font-family: 'Muli';
 }
@@ -174,7 +174,7 @@ footer.mastfoot.signature-phil{
   margin-bottom:10px;
 }
 .social-icons-big li a span{
-  font-size: 80px;
+  font-size: 70px;
   
 
            /*  -webkit-transition: all .2s linear;
@@ -184,7 +184,7 @@ footer.mastfoot.signature-phil{
                     transition: all .2s linear; */
 }
 .social-icons-big li a:hover span{
-  font-size: 80px;
+  font-size: 70px;
 /* 
             -webkit-transition: all .2s linear;
                -moz-transition: all .2s linear;
