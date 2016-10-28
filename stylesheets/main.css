@@ -27,35 +27,36 @@ html, body{
   overflow-x: hidden;
 }
 body{
-  border-left: solid 100px #1b201e ; 
-  border-right: solid 100px #1b201e ; 
-  background-color: #1b201e ;
+  border-left: solid 100px #fff ; 
+  border-right: solid 100px #fff ; 
+  background-color: #fff ;
 }
 p{
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   margin-bottom: 0;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 h1,h2,h5,h6{
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 
 h3{
-	font-size: 19px;
-	letter-spacing:2px;
+	font-size: 24px;
+	letter-spacing:0px;
 	line-height:8px;
-	font-family: 'Muli';
+	font-family: 'Quicksand';
 
 }
 
 h4{
-	font-size: 22px;
-	font-family: 'Muli';
-	letter-spacing: 5px;
+	font-size: 26px;
+	font-family: 'Quicksand';
+	letter-spacing: 2.75px;
+	
 
 }
 a{
@@ -75,16 +76,16 @@ a:focus {
   letter-spacing: 2px;
   padding: 10px;
   padding-bottom: 8px;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 
 
 .tooltip {
 	
-	font-family: 'Muli';
+	font-family: 'Quicksand';
 	font-size:16px;
 	line-height:24px;
-	letter-spacing: 2px;
+	font-weight:bold;
 }
 
 
@@ -125,11 +126,13 @@ header.masthead.signature-phil{
   padding: 80px 0;
 }
 .logo{
-  font-family:'wc_mano_negra_btaregular';
+  font-family:'Quicksand';
   text-transform: none;
-  letter-spacing: 3px;
-  font-size: 52px;
+  letter-spacing: -2px;
+  font-size: 48px;
   line-height: 40px;
+  font-weight:normal;
+  padding-bottom:10px;
 }
 
 /* 4. Footer
@@ -204,7 +207,7 @@ nav.mastnav.signature-phil{
   border-top: solid 2px #121212;
   margin-top: 25px;
   padding-top: 0px;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .navigation ul{
   list-style: none;
@@ -597,7 +600,7 @@ display: none;
   margin-bottom: 10px;
   letter-spacing: 2px;
   text-decoration: uppercase;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .news-date > span{
   font-size: 18px;
@@ -613,7 +616,7 @@ display: none;
   padding-bottom: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .news-heading-big{
   font-size: 64px;
@@ -621,7 +624,7 @@ display: none;
   margin-bottom: 20px;
   border-top: solid 4px;
   padding-top: 15px;
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 /*WORKS*/
 .work-collection-title{
@@ -938,45 +941,45 @@ nav#nav-mobile a:hover {
   border-color: #f1f1ef;
 }
 .font1 {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font2 {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font3 {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font4 {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font4thin {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font4light {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font4bold {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .font4black {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 body,
 p {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 nav#nav-mobile a {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .niceGallery ul.entries-columns li h4,
 .viewbox .panel .number,
 .viewbox .panel h3 {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .niceGallery ul.entries-columns li a .show {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 .viewbox .details h2 {
-  font-family: 'Muli';
+  font-family: 'Quicksand';
 }
 
