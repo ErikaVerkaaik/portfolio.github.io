@@ -434,7 +434,7 @@ display: none;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .info a:hover{
+        /* .info a:hover{
             cursor: url("../images/plus.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
@@ -449,7 +449,7 @@ display: none;
                 -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
-        }
+        } */
         .works-item-inner{
             text-align: left;
             padding: 0 100px;
@@ -864,7 +864,7 @@ display: none;
   color: #f1f1ef;
 }
 .grey {
-  color: #aaaaaa;
+  color: #999999;
 }
 .dark {
   color: #444444;
