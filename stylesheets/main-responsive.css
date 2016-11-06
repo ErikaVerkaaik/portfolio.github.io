@@ -39,12 +39,12 @@ there.
     .works-masonry-container .works-item-one-third-spaced{
       margin: 1% !important;
       padding: 0 !important;
-      width: 31.3% !important;
+      width: 18% !important;
     }
     .works-masonry-container .works-item-one-half-spaced{
       margin: 1% !important;
       padding: 0 !important;
-      width: 48% !important;
+      width: 18% !important;
     }
     .works-masonry-container .works-item-two-third-spaced{
       margin: 1% !important;
@@ -91,12 +91,12 @@ there.
     .works-masonry-container .works-item-one-third-spaced{
       margin: 1% !important;
       padding: 0 !important;
-      width: 31.3% !important;
+      width: 23% !important;
     }
     .works-masonry-container .works-item-one-half-spaced{
       margin: 1% !important;
       padding: 0 !important;
-      width: 48% !important;
+      width: 23% !important;
     }
     .works-masonry-container .works-item-two-third-spaced{
       margin: 1% !important;
@@ -139,10 +139,9 @@ there.
         margin-top: 50px;
     }
     ul.slimmenu.collapsed li .sub-collapser, ul.slimmenu > li > a:first-child {
-        font-size: 24px;
-        line-height: 38px;
+        font-size: 14px;
+        line-height: 21px;
         padding: 3px 0;
-		font-weight:200;
     }
     .menu-collapser {
         background-image: url("../images/logo.png");

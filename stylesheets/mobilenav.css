@@ -6,7 +6,6 @@
   #nav-trigger span {
     display: inline-block;
     padding: 10px 20px;
-	
     width: 100%;
     color: white;
     cursor: pointer;
@@ -28,7 +27,6 @@
 
 nav { }
 nav#nav-mobile {
-	
   z-index: 1000;
   position: relative;
   display: none; }
@@ -39,15 +37,12 @@ nav#nav-mobile {
     position: absolute;
     left: 0;
     right: 0;
-
     margin-left: auto;
     margin-right: auto;
     text-align: center; 
-	
   }
   nav#nav-mobile li {
     text-align: left;
-	
     display: block;
     padding: 2px 0;
     margin: 0 5px;

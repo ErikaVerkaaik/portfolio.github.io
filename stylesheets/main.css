@@ -123,7 +123,7 @@ div#preloader.signature-phil {
 /* 3. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header.masthead.signature-phil{
-  padding: 50px 0;
+  padding: 0px 0;
 }
 .logo{
   font-family:'Quicksand';
@@ -320,7 +320,7 @@ section.mastwrap.signature-phil{
 
 /*ABOUT*/
 .profile-pic{
-  width: 220px;
+  width: 100px;
   border-radius: 50%;
   display: inline-block;
 }
@@ -462,13 +462,13 @@ display: none;
             padding: 40px;
         }
         .works-thumbnails-view .works-item-inner p > span {
-            font-size: 18x;
-            letter-spacing: 4px;
-            line-height: 21px;
+            font-size: 32px;
+            letter-spacing: 1.5px;
+            line-height: 28px;
             margin-top: 0;
-            border-bottom: solid 5px;
             padding-bottom: 5px;
-            text-transform: uppercase;
+            text-transform: none;
+			font-weight:800px;
         }
         .works-item-inner h3 > span{ 
             font-size: 12px;
@@ -476,7 +476,7 @@ display: none;
             line-height: 19px;
             text-transform: none;
             margin-bottom: 5px;
-            border-bottom: solid 2px;
+            border-bottom: solid 1px;
             font-weight: 200;
         }
         .works-item-inner p > span{  
@@ -495,7 +495,7 @@ display: none;
         }
 
 .works-item-fade{
-  opacity: 0.1;
+  opacity: 0.8;
   -webkit-transition: all .4s ease-in-out;
      -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
