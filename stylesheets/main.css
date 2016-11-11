@@ -33,7 +33,7 @@ body{
 }
 p{
   font-size: 16px;
-  line-height: 26px;
+  line-height: 22px;
   text-align: center;
   margin-bottom: 0;
   font-family: 'Quicksand';
@@ -45,9 +45,9 @@ h1,h2,h5,h6{
 }
 
 h3{
-	font-size: 24px;
+	font-size: 23px;
 	letter-spacing:0px;
-	line-height:8px;
+	line-height:0px;
 	font-family: 'Quicksand';
 
 }
@@ -83,16 +83,17 @@ a:focus {
 .tooltip {
 	
 	font-family: 'Quicksand';
-	font-size:16px;
+	font-size:14px;
 	line-height:24px;
 	font-weight:bold;
+	letter-spacing: 1px;
 }
 
 hr.style-one { 
-border: 0; 
+border-top: 0px; 
 height: 2px; 
-background: #222; 
-line-style: dashed;
+background: #ddd; 
+ background-image: linear-gradient(to right, #fff, #ddd, #fff);
 }
 
 
@@ -134,11 +135,11 @@ header.masthead.signature-phil{
 .logo{
   font-family:'Quicksand';
   text-transform: none;
-  letter-spacing: -2px;
-  font-size: 48px;
-  line-height: 40px;
+  letter-spacing: 2px;
+  font-size: 38px;
+  line-height: 20px;
   font-weight:normal;
-  padding-bottom:10px;
+  padding-bottom:5px;
 }
 
 /* 4. Footer
@@ -179,11 +180,11 @@ footer.mastfoot.signature-phil{
 .social-icons-big li{
   display: inline-block;
   margin-right: 40px;
-  margin-top:0px;
-  margin-bottom:0px;
+  margin-top:-5px;
+  margin-bottom:-5px;
 }
 .social-icons-big li a span{
-  font-size: 50px;
+  font-size: 47px;
   
 
            /*  -webkit-transition: all .2s linear;
@@ -193,7 +194,7 @@ footer.mastfoot.signature-phil{
                     transition: all .2s linear; */
 }
 .social-icons-big li a:hover span{
-  font-size: 50px;
+  font-size: 47px;
 /* 
             -webkit-transition: all .2s linear;
                -moz-transition: all .2s linear;
@@ -373,6 +374,49 @@ section.mastwrap.signature-phil{
 /*WORKS*/
 
 .works-filter-panel.signature-phil{
+  padding: 0px;
+}
+.works-filter-wrap{
+}
+
+.works-filter.signature-phil{
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+.works-filter.signature-phil li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.works-filter.signature-phil li a{
+  font-size: 24px;
+  font-family:'Quicksand';
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight:;
+  color: #fff;
+
+}
+
+.works-filter.signature-phil li:after{
+  content: '/';
+  font-size: 24px;
+  font-family:'Quicksand';
+  line-height: 32px;
+  margin-left: 20px;
+  color: #fff;
+
+}
+.works-filter.signature-phil li:last-child:after{
+    display: none;
+}
+
+/* .works-filter-panel.signature-phil{
 display: none;
   width: 300px;
   z-index: 9999;
@@ -401,7 +445,7 @@ display: none;
 .works-filter.signature-phil li a{
   font-size: 14px;
   line-height: 21px;
-}
+} */
 .works-container.signature-phil{
     padding: 0;
   margin: 70px auto 0 auto;
@@ -888,13 +932,16 @@ display: none;
   background-color: #f1f1ef;
 }
 .grey-bg {
-  background-color: #cccccc;
+  background-color: #999999;
 }
 .dark-bg {
   background-color: #292929;
 }
 .black-bg {
   background-color: #121212;
+}
+.mint-bg {
+  background-color: #DAEFE1;
 }
 a {
   color: #121212;
