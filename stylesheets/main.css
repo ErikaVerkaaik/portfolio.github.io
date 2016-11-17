@@ -29,6 +29,7 @@ html, body{
 body{
   border-left: solid 30px #fff; 
   border-right: solid 30px #fff; 
+
   }
 
 p{
@@ -149,8 +150,8 @@ header.masthead.signature-phil{
   font-family:'Quicksand';
   text-transform: none;
   letter-spacing: 2px;
-  font-size: 38px;
-  line-height: 20px;
+  font-size: 41px;
+  line-height: 30px;
   font-weight:normal;
   padding-bottom:5px;
 }
@@ -159,7 +160,7 @@ header.masthead.signature-phil{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot.signature-phil{
   overflow: hidden;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .social-icons{
   font-size: 80px;
@@ -523,7 +524,7 @@ display: none;
           margin-top: 40px;
         }
         .works-thumbnails-view .works-item-inner{
-            text-align: left;
+            text-align: center;
             padding: 40px;
         }
         .works-thumbnails-view .works-item-inner p > span {
