@@ -33,7 +33,7 @@ body{
   }
 
 p{
-  font-size: 16px;
+  font-size: 17px;
   line-height: auto;
   text-align: justify;
   margin-bottom: 0;
@@ -107,7 +107,7 @@ hr.style-one {
 border-top: 0px; 
 height: 1px; 
 background: #ccc; 
-background-image: linear-gradient(to right, #eee, #999999, #eee);
+background-image: linear-gradient(to right, #dddddd, #999999, #dddddd);
 }
 
 
@@ -874,8 +874,8 @@ display: none;
 }
 
 .pad-sides{
-    padding-left: 45px;
-	padding-right: 45px;
+    padding-left: 30px;
+	padding-right: 30px;
 }
 .ease{
             -webkit-transition: all .4s linear;
