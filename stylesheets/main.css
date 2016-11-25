@@ -27,8 +27,8 @@ html, body{
   overflow-x: hidden;
 }
 body{
-  border-left: solid 30px #fff; 
-  border-right: solid 30px #fff; 
+  /* border-left: solid 30px #fff; 
+  border-right: solid 30px #fff; */
 
   }
 
@@ -52,37 +52,37 @@ h2{
 	padding-top:8px;
 	letter-spacing: 0px;
 	text-transform:none;
-	line-height:22px;
+	line-height:0px;
 
 }
 
 h5{
-	font-size: 23px;
+	font-size: 18px;
 	font-family: 'Quicksand';
-	padding-top:8px;
-	padding-bottom:8px;
+	padding-top:0px;
+	padding-bottom:0px;
 	letter-spacing: 0px;
 	text-transform:none;
-	line-height:23px;
+	line-height:0px;
 
 
 }
 
 
 h3{
-	font-size: 16px;
+	font-size: 28px;
 	font-family: 'Quicksand';
 	line-height:auto;
-	letter-spacing: 1px;
+	letter-spacing:0px;
 	text-transform:none;
 	
 }
 
 h4{
-	font-size: 28px;
 	font-family: 'Quicksand';
 	letter-spacing: 1px;
-	font-weight:bold;
+	font-size: 32px;
+	font-weight:normal;
 	text-transform:uppercase;
 }
 
@@ -158,13 +158,14 @@ div#preloader.signature-phil {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header.masthead.signature-phil{
   padding: 0px 0;
+  border-bottom:solid 1.5px;
 }
 .logo{
   font-family:'Quicksand';
   text-transform: none;
   letter-spacing: 2px;
-  font-size: 41px;
-  line-height: 30px;
+  font-size: 38px;
+  line-height: 36px;
   font-weight:normal;
   padding-bottom:5px;
 }
@@ -173,19 +174,19 @@ header.masthead.signature-phil{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot.signature-phil{
   overflow: hidden;
-  padding: 50px 0;
+  padding: 20px 0;
+  border-top:solid 1.5px;
 }
 .social-icons{
-  font-size: 80px;
+  font-size: 60px;
   padding: 0;
-  margin: 0;
+  margin-bottom: -5px;
 }
 .social-icons li{
   display: inline-block;
-  margin: 0 5px;
 }
 .social-icons li a span{
-  font-size: 24px;
+  font-size:40px;
             -webkit-transition: all .4s linear;
                -moz-transition: all .4s linear;
                 -ms-transition: all .4s linear;
@@ -193,7 +194,7 @@ footer.mastfoot.signature-phil{
                     transition: all .4s linear;
 }
 .social-icons li a:hover span{
-  font-size: 24px;
+  font-size: 40px;
             -webkit-transition: all .4s linear;
                -moz-transition: all .4s linear;
                 -ms-transition: all .4s linear;
@@ -205,10 +206,10 @@ footer.mastfoot.signature-phil{
   list-style: none;
 }
 .social-icons-big li{
-  display: inline-block;
-  margin-right: 40px;
+  display: inline;
   margin-top:-5px;
   margin-bottom:-5px;
+  margin-right:40px;
 }
 .social-icons-big li a span{
   font-size: 47px;
@@ -543,9 +544,9 @@ display: none;
             padding: 40px;
         }
         .works-thumbnails-view .works-item-inner p > span {
-            font-size: 24px;
+            font-size: 28px;
 			font-family:'Quicksand';
-            letter-spacing: 1.5px;
+            letter-spacing: 0px;
             line-height: 28px;
             margin-top: 0;
             padding-bottom: 5px;
@@ -781,11 +782,11 @@ display: none;
   font-family:'Quicksand';
   text-decoration: none;
   padding: 10px 15px;
-  font-weight:bold;
-  font-size: 16px;
+  font-weight:normal;
+  font-size: 23px;
   line-height: auto;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing:0px;
   -webkit-transition: all .4s ease-in-out;
      -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -826,19 +827,19 @@ display: none;
 }
 
 .btn-signature-dark{
-  border:solid 1.5px #444;
-  background: #444;
-  color: #fff;
+  border:solid 1.5px #222;
+  background: transparent;
+  color: #222;
 }
 .btn-signature-dark:hover{
   border:solid 1.5px #63bb82;
   background: #63bb82;
   color: #fff;
-    -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-    -ms-transition: all .2s linear;
-     -o-transition: all .2s linear;
-      transition: all .2s linear;
+    -webkit-transition: all .1s linear;
+     -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+     -o-transition: all .1s linear;
+      transition: all .1s linear;
 }
 
 .btn-signature-color{
