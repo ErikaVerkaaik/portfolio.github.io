@@ -120,7 +120,7 @@ hr.style-one {
 border-top: 0px; 
 height: 1px; 
 background: #ccc; 
-background-image: linear-gradient(to right, #dddddd, #999999, #dddddd);
+/* background-image: linear-gradient(to right, #dddddd, #999999, #dddddd); */
 }
 
 
