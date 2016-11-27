@@ -173,7 +173,7 @@ header.masthead.signature-phil{
 /* 4. Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot.signature-phil{
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 20px 0;
   border-top:solid 1.5px;
 }
