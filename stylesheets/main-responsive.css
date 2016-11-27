@@ -132,7 +132,7 @@ there.
         display: inline-block;
     }
     header.masthead.signature-phil{
-        display: none;
+        /* display: none; */
     }
     section.mastwrap.signature-phil{
         margin-left: 0;
@@ -253,7 +253,7 @@ there.
     }
 
     .mobile-nav.signature-phil {
-        display: block;
+        /* display: block; */
     }
     .works-masonry-container .works-item-one-third,
     .works-masonry-container .works-item-two-third,
