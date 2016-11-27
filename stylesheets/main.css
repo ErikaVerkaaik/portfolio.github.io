@@ -49,10 +49,9 @@ h1,h2,h6{
 h2{
 	font-size: 23px;
 	font-family: 'Quicksand';
-	padding-top:8px;
 	letter-spacing: -1px;
 	text-transform:none;
-	line-height:0px;
+	line-height:23px;
 
 }
 
