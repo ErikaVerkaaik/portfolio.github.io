@@ -38,32 +38,30 @@ p{
   text-align: justify;
   margin-bottom: 0;
   font-family: 'Muli';
-  letter-spacing:-0.5px;
+  letter-spacing:0px;
 }
 h1,h2,h6{
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 
 h2{
-	font-size: 23px;
-	font-family: 'Quicksand';
-	letter-spacing: -0.5px;
-	text-transform:none;
-	line-height:32px;
+	font-size: 20.5px;
+	font-family: 'Muli';
+	letter-spacing: 0px;
+	text-transform:uppercase;
+	line-height:auto;
 
 }
 
 h5{
-	font-size: 18px;
-	font-family: 'Quicksand';
-	padding-top:0px;
-	padding-bottom:0px;
-	letter-spacing: 0px;
+	font-size: 19px;
+	font-family: 'Muli';
+	margin-top:2px;
+	letter-spacing: 1.5px;
 	text-transform:none;
-	line-height:14px;
-	letter-spacing: 1.25px;
+	line-height:auto;
 
 
 }
@@ -71,7 +69,7 @@ h5{
 
 h3{
 	font-size: 23px;
-	font-family: 'Quicksand';
+	font-family: 'Muli';
 	line-height:auto;
 	letter-spacing:0px;
 	text-transform:none;
@@ -79,11 +77,12 @@ h3{
 }
 
 h4{
-	font-family: 'Quicksand';
-	letter-spacing: 1px;
+	font-family: 'Muli';
+	letter-spacing: 0px;
 	font-size: 32px;
 	font-weight:normal;
 	text-transform:uppercase;
+	letter-spacing:1px;
 }
 
 a{
@@ -103,13 +102,13 @@ a:focus {
   letter-spacing: 2px;
   padding: 10px;
   padding-bottom: 8px;
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 
 
 .tooltip {
 	
-	font-family: 'Quicksand';
+	font-family: 'Muli';
 	font-size:14px;
 	line-height:24px;
 	font-weight:bold;
@@ -161,13 +160,13 @@ header.masthead.signature-phil{
   border-bottom:solid 1.5px;
 }
 .logo{
-  font-family:'Quicksand';
+  font-family:'Muli';
   text-transform: none;
-  letter-spacing: 0.5px;
-  font-size: 38px;
-  line-height: 36px;
+  letter-spacing: 3.5px;
+  font-size: 36px;
+  line-height: auto;
   font-weight:normal;
-  padding-bottom:5px;
+  padding-bottom:0px;
 }
 
 /* 4. Footer
@@ -243,7 +242,7 @@ nav.mastnav.signature-phil{
   border-top: solid 2px #121212;
   margin-top: 25px;
   padding-top: 0px;
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .navigation ul{
   list-style: none;
@@ -423,7 +422,7 @@ section.mastwrap.signature-phil{
 }
 .works-filter.signature-phil li a{
   font-size: 24px;
-  font-family:'Quicksand';
+  font-family:'Muli';
   line-height: 40px;
   text-transform: uppercase;
   font-weight:bold;
@@ -436,7 +435,7 @@ section.mastwrap.signature-phil{
 .works-filter.signature-phil li:after{
   content: '/';
   font-size: 24px;
-  font-family:'Quicksand';
+  font-family:'Muli';
   line-height: 32px;
   margin-left: 20px;
   color: #fff;
@@ -497,7 +496,7 @@ display: none;
             width: 100%;
             height: 100%;
             position: absolute;
-			font-family:'Quicksand';
+			font-family:'Muli';
             top: 0;
             z-index: 100;
             text-align: center;
@@ -546,7 +545,7 @@ display: none;
         }
         .works-thumbnails-view .works-item-inner p > span {
             font-size: 26px;
-			font-family:'Quicksand';
+			font-family:'Muli';
             letter-spacing: 1px;
             line-height: 28px;
             margin-top: 0;
@@ -556,7 +555,7 @@ display: none;
         }
         .works-item-inner h3 > span{ 
             font-size: 12px;
-			font-family:'Quicksand';
+			font-family:'Muli';
             letter-spacing: normal;
             line-height: 19px;
             text-transform: none;
@@ -566,7 +565,7 @@ display: none;
         }
         .works-item-inner p > span{  
             font-size: 18px;
-			font-family:'Quicksand';
+			font-family:'Muli';
             line-height: 25px;
             letter-spacing: 4px;
             margin-top: 0px;
@@ -687,7 +686,7 @@ display: none;
   margin-bottom: 10px;
   letter-spacing: 2px;
   text-decoration: uppercase;
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .news-date > span{
   font-size: 18px;
@@ -703,7 +702,7 @@ display: none;
   padding-bottom: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .news-heading-big{
   font-size: 64px;
@@ -711,7 +710,7 @@ display: none;
   margin-bottom: 20px;
   border-top: solid 4px;
   padding-top: 15px;
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 /*WORKS*/
 .work-collection-title{
@@ -780,7 +779,7 @@ display: none;
 /*Buttons*/
 .btn-signature{
   border-radius: 10px;
-  font-family:'Quicksand';
+  font-family:'Muli';
   text-decoration: none;
   padding: 10px 15px;
   font-weight:normal;
@@ -1053,7 +1052,7 @@ nav#nav-mobile a:hover {
   border-color: #f1f1ef;
 }
 .font1 {
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .font2 {
   font-family: 'Muli';
@@ -1063,17 +1062,17 @@ p {
   font-family: 'Muli';
 }
 nav#nav-mobile a {
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .niceGallery ul.entries-columns li h4,
 .viewbox .panel .number,
 .viewbox .panel h3 {
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .niceGallery ul.entries-columns li a .show {
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 .viewbox .details h2 {
-  font-family: 'Quicksand';
+  font-family: 'Muli';
 }
 
