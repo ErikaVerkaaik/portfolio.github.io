@@ -487,7 +487,7 @@ display: none;
 
  .works-item.signature-phil{
   overflow: hidden;
- 
+
  }
  .works-item.signature-phil a{
   background-color:rgba(0,0,0,0.4);
@@ -495,6 +495,7 @@ display: none;
             display: block;
             width: 100%;
             height: 100%;
+			
             position: absolute;
 			font-family:'Muli';
             top: 0;
@@ -538,6 +539,7 @@ display: none;
         }
         .works-thumbnails-view{
           margin-top: 40px;
+		  
         }
         .works-thumbnails-view .works-item-inner{
             text-align: center;
