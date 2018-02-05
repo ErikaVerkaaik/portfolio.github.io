@@ -3,7 +3,7 @@
 }
 
 html {
-	/*border: 18px solid #000;*/
+	border: 18px solid #3d0747;
 	text-align: center;
 	height: 100%;
 
@@ -24,7 +24,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7febd0', end
 
 
 .head {
-	margin-top: 13%;
+	margin-top: 12%;
 }
 
 .symbols {
