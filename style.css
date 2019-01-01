@@ -18,7 +18,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7febd0', end
 }
 
 .head {
-	margin-top: 10.5%;
+	margin-top: 8%;
 }
 
 .symbols {
@@ -78,4 +78,22 @@ img.social:hover {
 ::selection {
     color: #000;
     background: #7febd0;
+}
+
+@media only screen and (max-width: 600px) {
+  	.head {
+		margin-top: 1em;
+	}
+
+	.title {
+		font-size: 2.5em;
+	}
+
+	.subtitle {
+		font-size: 1.75em;
+	}
+
+	.symbols {
+		font-size: 4em;
+	}
 }
