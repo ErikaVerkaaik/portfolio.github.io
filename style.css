@@ -67,10 +67,15 @@ footer p {
 	padding-right: 2em;
 }
 
+<<<<<<< HEAD
 h1, h2, h3, h4 {
 	font-weight: thin;
 	color: black;
 	text-transform: uppercase;
+=======
+.head {
+	margin-top: 8%;
+>>>>>>> c91f92c961b676016840df2a2356f6b0a91e404c
 }
 
 .game h2 {
@@ -308,6 +313,7 @@ img.social:hover {
 }
 
 @media only screen and (max-width: 600px) {
+<<<<<<< HEAD
 
 	section {
 		padding: 1em;
@@ -358,3 +364,21 @@ img.social:hover {
 }
 
 
+=======
+  	.head {
+		margin-top: 1em;
+	}
+
+	.title {
+		font-size: 2.5em;
+	}
+
+	.subtitle {
+		font-size: 1.75em;
+	}
+
+	.symbols {
+		font-size: 4em;
+	}
+}
+>>>>>>> c91f92c961b676016840df2a2356f6b0a91e404c
