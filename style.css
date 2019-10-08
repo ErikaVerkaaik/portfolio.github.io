@@ -289,8 +289,12 @@ img.social:hover {
 		scroll-snap-align: none;
 	}
 
+	p {
+		font-size: 2em;
+	}
+
 	.bio {
-		/*font-size: 1.5em;*/
+		font-size: 2em;
 	}
 
 	.grid-quarters {
@@ -317,26 +321,9 @@ img.social:hover {
 	}
 
 	img.social {
-		width: 50px;
+		width: 15%;
 		margin-right: 0.5em;
 	}
-
-/*	.title {
-		font-size: 3em;
-		text-align: center;
-	}
-
-	h1 {
-		font-size: 2.5em;
-	}
-
-	h2 {
-		font-size:1.5em;
-	}
-
-	p {
-		font-size: 1em;
-	}*/
 
 	ul li {
 		line-height: 1;
